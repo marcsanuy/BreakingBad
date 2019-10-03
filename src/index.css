@@ -32,7 +32,7 @@ body {
 .contenedor {
   display: flex;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 20rem;
   flex-direction: column;
 }
 
@@ -40,7 +40,10 @@ body {
   padding: 3rem;
   border-radius: .5rem;
   background: linear-gradient(rgba(247, 251, 0, 0.281), rgba(41, 255, 3, 0.767)), url(./breaking-bad-980x570.jpg);
-  max-width:800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: width 600px;
+  
 }
 .frase h1::before {
   content: open-quote;
